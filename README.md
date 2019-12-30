@@ -19,7 +19,7 @@ For the Neural Network we optimized our hyperparameters by trial an error, until
 
 The followin image shows the deep learning model set up used.
 
-![table](https://github.com/salomonysmayel/Project_2_Group_2/images/blob/master/Image1.png "Image1")
+![table](https://github.com/salomonysmayel/Project_2_Group_2/images/blob/master/model.png "model")
 
 We use K-fold validation to ensure that the test sample that we are using is not too contrasting from our test sample in terms of variance.
 
