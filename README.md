@@ -19,23 +19,24 @@ For the Neural Network we optimized our hyperparameters by trial an error, until
 
 The followin image shows the deep learning model set up used.
 
-![table](https://github.com/salomonysmayel/Project_2_Group_2/images/blob/master/model.png "model")
 
-![GitHub Logo](/images/model.png)
+![model setup](/images/model.png)
 
 
 We use K-fold validation to ensure that the test sample that we are using is not too contrasting from our test sample in terms of variance.
 
 To measure the performace of our model we plotted the mean absolut error vs the number of epochs, to check how the average of the absolute differences between target values and the predictions evolve with the epochs. As shown bellow
 
-IMAGE 2
+![MAE_vs_epochs](/images/MAE_vs_epochs.png)
 
 We also compared the loss with the number of epochs, for train and validation, so that we know deppending on how both curves are interacting, if we are underfitting, overfitting or setting up our model just right.
 
-IMAGE 3 
+![loss_vs_epochs](/images/loss_vs_epochs.png)
 
 The results for our model showed that the prediction of stock prices ussing the supply chain approach pproved to be more acurate when compared to the forecasting of prices using the closing prices of Intel's competition. And also, as expected, the regression using deep learning proved to be more accurate that the simple machine learning skitlearn regression model.
 
-IMAGES 4 AND 5 
+![supply_chain](/images/supply_chain.png)
+
+![competition](/images/competition.png)
 
 Given our positive results, we feel confident saying that our model  using supply chain as an analitics source of information for deep learning models to forecast equities prices is a very promissing approach to investment analysis. With higher quality data we believe that we can construct and offer a very proffitable model for investors.
