@@ -22,7 +22,7 @@ The followin image shows the deep learning model set up used.
 ![table](https://github.com/salomonysmayel/Project_2_Group_2/images/blob/master/model.png "model")
 
 ![GitHub Logo](/images/model.png)
-Format: ![Alt Text](url)
+
 
 We use K-fold validation to ensure that the test sample that we are using is not too contrasting from our test sample in terms of variance.
 
