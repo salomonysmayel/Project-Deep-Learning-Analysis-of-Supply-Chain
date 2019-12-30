@@ -51,10 +51,16 @@ To actually see in numbers the differences beteewn the two models, we calculated
 
 ![correlation_sc](/images/correlation_sc.png)
 
-The correlation beteewn predicted and real values for the supply chain analysis was xxx
+The correlation beteewn predicted by deep lerning model and real values for the supply chain analysis was 0.9872
+The correlation beteewn predicted by linear regression model and real values for the supply chain analysis was 0.8614
 
 ![correlation_comp](/images/correlation_comp.png)
 
-The correlation between predicted and real values for the competitors analysis was xxx
+The correlation between predicted by deep lerning model and real values for the competitors analysis was 0.9602
+The correlation beteewn predicted by linear regression model and real values for the competitors analysis was 0.8277
+
+The following is a parcial view of the results for predicted values compared to real values for different closing prices on the historical data for Intel's closing price.
+
+![results](/images/results.png)
 
 Given our positive results, we feel confident saying that our model  using supply chain as an analitics source of information for deep learning models to forecast equities prices is a very promissing approach to investment analysis. With higher quality data we believe that we can construct and offer a very proffitable model for investors.
