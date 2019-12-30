@@ -35,8 +35,26 @@ We also compared the loss with the number of epochs, for train and validation, s
 
 The results for our model showed that the prediction of stock prices ussing the supply chain approach pproved to be more acurate when compared to the forecasting of prices using the closing prices of Intel's competition. And also, as expected, the regression using deep learning proved to be more accurate that the simple machine learning skitlearn regression model.
 
+Just by looking at the plot we can see that the blue points corresponding to the deep learning algorithm fit a line better than the same blue dots on the second graph for the comnpetitors analysis, also we can see how more acurate the model is compared to the regression model using sckit Learn, represented on both graphs by the orange dots.
+
+
+Price forecasting model results with Supply Chain 
+
 ![supply_chain](/images/supply_chain.png)
 
+
+Price forecasting model results with competition companies
+
 ![competition](/images/competition.png)
+
+To actually see in numbers the differences beteewn the two models, we calculated the correlations of all the results, as shown below.
+
+![correlation_sc](/images/correlation_sc.png)
+
+The correlation beteewn predicted and real values for the supply chain analysis was xxx
+
+![correlation_comp](/images/correlation_comp.png)
+
+The correlation between predicted and real values for the competitors analysis was xxx
 
 Given our positive results, we feel confident saying that our model  using supply chain as an analitics source of information for deep learning models to forecast equities prices is a very promissing approach to investment analysis. With higher quality data we believe that we can construct and offer a very proffitable model for investors.
