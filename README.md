@@ -11,7 +11,7 @@ Clients: Dell, HP, Lenovo
 
 Also the model was tested against an analysis were the features are stock's closing prices for companies that are direct competitors to Intel: Advanced micro Devices, NVIDIA, Qualcomn, Broadcom, Micron Technologies and Texas Instruments. Set off our model to predict the closing price of Intel using historic prices from these competitors and compared the results with the supply chain analysis by calculating the correlation between predicted prices and real prices for both analyses. Also, in parallel to the Neural Network we ran a Machine learning regression algorithm to also have a comparison between model's outcomes for reference during our testing.
 
-For the Neural Network we optimized our hyper-parameters by trial an error, until we found a set up that would minimize error without over or under-fitting the model without taking to much computational time.
+For the Neural Network the hyper-parameters were optimized by trial an error, until a set up was found that would minimize error without over or under-fitting the model without taking to much computational time.
 
 The followin image shows the deep learning model set up used.
 
@@ -19,17 +19,17 @@ The followin image shows the deep learning model set up used.
 ![model setup](/images/model.png)
 
 
-We use K-fold validation to ensure that the test sample that we are using is not too contrasting from our test sample in terms of variance.
+K-fold validation to ensure that the test sample is not too contrasting from our test sample in terms of variance.
 
 To measure the performance of our model we plotted the mean absolute error vs the number of epochs, to check how the average of the absolute differences between target values and the predictions evolve with the epochs. As shown bellow
 
 ![MAE_vs_epochs](/images/MAE_vs_epochs.png)
 
-We also compared the loss with the number of epochs, for train and validation, so that we know depending on how both curves are interacting, if we are under-fitting, overfitting or setting up our model just right. While training we want our curves to converge.
+Comparison of the loss with the number of epochs, for train and validation, so that we know depending on how both curves are interacting, if we are under-fitting, overfitting or setting up our model just right. While training we want our curves to converge.
 
 ![loss_vs_epochs](/images/loss_vs_epochs.png)
 
-The results for our model showed that the prediction of stock prices using the supply chain approach proved to be more accurate when compared to the forecasting of prices using the closing prices of Intel's competition. And also, as expected, the regression using deep learning proved to be more accurate that the simple machine learning skitlearn regression model.
+The results of the model showed that the prediction of stock prices using the supply chain approach proved to be more accurate when compared to the forecasting of prices using the closing prices of Intel's competition. And also, as expected, the regression using deep learning proved to be more accurate that the simple machine learning skitlearn regression model.
 
 Just by looking at the plot we can see that the blue points corresponding to the deep learning algorithm fit a line better than the same blue dots on the second graph for the competitors analysis, also we can see how more accurate the model is compared to the regression model using sckit Learn, represented on both graphs by the orange dots.
 
@@ -59,4 +59,4 @@ The following is a partial view of the results for predicted values compared to 
 
 ![results](/images/results.png)
 
-Given our positive results, we feel confident saying that our model  using supply chain as an analytics source of information for deep learning models to forecast equities prices is a very promising approach to investment analysis. With higher quality data we believe that we can construct and offer a very profitable model for investors.
+Given the positive results, we could concluide that this model  using supply chain as an analytics source of information for deep learning models to forecast equities prices is an interesting approach to investment analysis. 
